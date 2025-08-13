@@ -13,6 +13,7 @@ Unlock, root and general details about the AI+ Pulse (4G, 64GB) variant - Unisoc
 9. At the end, the device should automaticlly reboot and be unlocked
 10. Note that the boot image will be dumped to a file called "boot.bin"
 11. The image will be from the current active slot
+Source - https://xdaforums.com/t/unisoc-t615-bootloader-unlock-root.4734366/
 
 # Device Paritioning Details
 1. GSI Variant - xx-arm64-ab.img
