@@ -24,3 +24,12 @@ Source - https://xdaforums.com/t/unisoc-t615-bootloader-unlock-root.4734366/
 6. Seamless Upgrades - True
 7. Dynamic Parititons - True
 8. Binder Architecture - arm64
+
+# Specifications
+1. Display Size = 6.7 Inch
+2. SoC - Unisoc T615
+3. GPU - Mali G57 MP1
+4. Cores - 6 Little + 2 Big
+5. Sensors - Proximity, Ambient Light, Accelerometer
+6. Camera (Rear) - 50MP Sensor f/2.0 + Dummy Camera
+7. Camera (Front) - 5MP Camera
