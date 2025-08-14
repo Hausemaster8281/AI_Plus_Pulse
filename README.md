@@ -10,7 +10,7 @@ Unlock, root and general details about the AI+ Pulse (4G, 64GB) variant - Unisoc
 6. Hold Volume Down (-) and connect the device to your pc
 7. Run: unlock_autopatch_9230.bat
 8. Wait For Script to complete, and proceed with the instructions while tunning the .bat file
-9. At the end, the device should automaticlly reboot and be unlocked
+9. At the end, the device should automaticlly reboot and be unlocked 
 10. Note that the boot image will be dumped to a file called "boot.bin"
 11. The image will be from the current active slot
 Source - https://xdaforums.com/t/unisoc-t615-bootloader-unlock-root.4734366/
@@ -33,3 +33,11 @@ Source - https://xdaforums.com/t/unisoc-t615-bootloader-unlock-root.4734366/
 5. Sensors - Proximity, Ambient Light, Accelerometer
 6. Camera (Rear) - 50MP Sensor f/2.0 + Dummy Camera
 7. Camera (Front) - 5MP Camera
+
+# OTA Links/Resources
+1. There was an initial 55MB OTA without any changelog.
+2. I did not capture the OTA Link, so please feel free to open a PR.
+3. OTA Links - <OTA_1> Missing,
+  Note that OTA 1 was an incremental OTA. Judging by it's size it was probably an OTA for Security Patch (July 2025).
+  Also, during the BL unlock process, boot image from your current active slot is dumped.
+  Avoid Changing Any other slots/partitions as we do not have a stock ROM dump available as of yet. And yes, this includes VBmeta (use fastboot flash --disable-verity --disable-verification boot_<active_slot> <Boot.img> to disable verity)
