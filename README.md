@@ -37,7 +37,7 @@ Source - https://xdaforums.com/t/unisoc-t615-bootloader-unlock-root.4734366/
 # OTA Links/Resources
 1. There was an initial 55MB OTA without any changelog.
 2. I did not capture the OTA Link, so please feel free to open a PR.
-3. OTA Links - <OTA_1> Missing,
+3. OTA Links - <OTA_1> Missing, <OTA 2> Aug - 13 ( https://android.googleapis.com/packages/ota-api/package/e2579cebef64c415c429badeb2f5c3a7f1d45196.zip )
   Note that OTA 1 was an incremental OTA. Judging by it's size it was probably an OTA for Security Patch (July 2025).
   Also, during the BL unlock process, boot image from your current active slot is dumped.
   Avoid Changing Any other slots/partitions as we do not have a stock ROM dump available as of yet. And yes, this includes VBmeta (use fastboot flash --disable-verity --disable-verification boot_<active_slot> <Boot.img> to disable verity)
