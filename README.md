@@ -44,3 +44,4 @@ Source - https://xdaforums.com/t/unisoc-t615-bootloader-unlock-root.4734366/
   Avoid Changing Any other slots/partitions as we do not have a stock ROM dump available as of yet. And yes, this includes VBmeta (use fastboot flash --disable-verity --disable-verification boot_<active_slot> <Boot.img> to disable verity)
 5. https://android.googleapis.com/packages/ota-api/package/dba15107a7277505e52af5b83d3fa8bdfab64c55.zip - Update title NxtQuantum OS New Version Release (October patch, incremental update)
 6. https://android.googleapis.com/packages/ota-api/package/234865891b3ab005b7e9e834a41f502bafb44de2.zip - Update title - "New version discovered! Experience optimization and security upgrade" (Size is 342 MB, an incremental update)
+7. Incrememtal System is Messed up - You can apply this OTA on V05 version - https://android.googleapis.com/packages/ota-api/package/d74cf2aed64d8b11f240f577a838e60f83f7c92c.zip
