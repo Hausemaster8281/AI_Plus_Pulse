@@ -1,6 +1,11 @@
 # AI_Plus_Pulse
 Unlock, root and general details about the AI+ Pulse (4G, 64GB) variant - Unisoc T615
 
+# WARNING
+When you mess around on an unlocked bootloader and damage block integrity, you will be screwed in terms of OTAs.
+Use the unisoc tool to restore all images and somehow achieve block level integrity, then wait.
+OTAs will only apply iff both slots are clean and update caches are clear.
+
 # Bootloader Unlock Guide
 1. Download ums9230_universal_unlock.zip attached here and extract
 2. Download and extract the SPD driver attached here
