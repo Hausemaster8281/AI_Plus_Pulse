@@ -53,4 +53,6 @@ Source - https://xdaforums.com/t/unisoc-t615-bootloader-unlock-root.4734366/
 <img width="720" height="4538" alt="Screenshot_20260510-112053" src="https://github.com/user-attachments/assets/98bb6d6b-c478-4246-beeb-da212f7acbcf" />
 8. Available on V07, will move security patch to 5 december (V08) - https://android.googleapis.com/packages/ota-api/package/91c7b94827fbdd154f63a393385094086768e3a6.zip
 <img width="720" height="1600" alt="Screenshot_20260510-115102" src="https://github.com/user-attachments/assets/2e110200-bc2a-4753-821d-d98f1d1a8d96" />
-9.  
+9. Available on V08, will move security patch level to January () - https://android.googleapis.com/packages/ota-api/package/b0af8c97e2172b3a295c11ac9ee986749e6e2e04.zip
+<img width="720" height="1600" alt="Screenshot_20260510-120804" src="https://github.com/user-attachments/assets/f3d5d183-5eef-485f-a04e-d0a42357ac79" />
+10. 
